@@ -27,3 +27,31 @@ university students?
   significant (Z = 2.0922, p = 0.0364)
 
 ## Project Structure
+data/
+data.csv              — original raw file
+clean_humor_data.csv  — processed data
+notebooks/
+01_cleaning.ipynb     — data cleaning and score recalculation
+02_eda.ipynb          — exploratory data analysis and visualizations
+03_analysis.ipynb     — formal statistical testing
+report/
+full written report (PDF)
+
+## Tools Used
+- Python
+- pandas — data cleaning and manipulation
+- matplotlib — data visualization
+- scipy — statistical testing
+- numpy — numerical operations
+
+## How to Run
+Open notebooks in order: 01 → 02 → 03
+
+## Note on Data Cleaning
+The dataset's pre-computed humor style scores could not be exactly 
+reproduced from raw items using standard scoring methods. All four 
+scale scores were recalculated from scratch using the original codebook 
+formulas. This is documented in 01_cleaning.ipynb.
+
+## Author
+Rishi Khare
